@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href = "assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Fredoka+One|Mirza|Sofia" rel="stylesheet">
+        <link rel="stylesheet" href = "assets/css/style.css">
+        <title>Movie Tivia</title>
+        <link rel = "shortcut icon" href = "https://pbs.twimg.com/profile_images/836629578554748928/DHbaSYYv_400x400.jpg">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    </head>
+
+    <body>
+        <div class = "container">
+            <header>Movie Trivia Game</header>
+           
+            <div id="instruction">
+                <ul>
+                    <li>Test your knowledge of movies!</li>
+                    <li>Answer <strong>10</strong> trivia questions within the time limit. You have <strong>15 seconds</strong> for each question. </li>
+                </ul>
+                
+                <div id="name">Please enter your name to start playing:   
+                    <input id="nameInput" type="text" name="name" placeholder="Harry Potter">
+                </div> 
+
+            </div>
+
+            <button id="start" type="button" class="btn btn-warning" disabled>Start</button>
+
+            <div id="win-lose"></div>
+
+            <div id="questionArea"></div>
+            <br>
+            <ol id="choiceArea" type="A"></ol>
+
+            <div id="timer" class="timeTextStyle"></div>
+
+        </div>
+    </body>
+
+</html>

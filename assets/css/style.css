@@ -1,0 +1,88 @@
+.choiceClass {
+    width: 50%;
+    padding: 5px 5px;
+    background-color: rgb(211, 231, 255);
+    margin: 5px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.choiceClass:hover {
+    background-color: rgb(119, 162, 214);
+    cursor: pointer;
+}
+
+#next {
+    margin-top: 20px;
+    display: block;
+}
+
+nameInput {
+    margin-bottom: 15px;
+    width: 90%;
+    font-family: monospace;
+}
+
+header {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Mirza', cursive;
+}
+
+button {
+    margin: 20px 0px;
+}
+
+body {
+    background-image: url("../images/film.jpg");
+    background-repeat: no-repeat;  
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 600px;
+}
+
+#name {
+    margin-top: 25px;
+}
+
+#instruction, .timeTextStyle {
+    font-family: 'Mirza', cursive;
+    font-size: 23px;
+}
+
+.timeTextStyleStrong, .answerStyle {
+    font-family: 'Mirza', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    color: red;
+}
+
+#questionArea {
+    margin-top: 10px;
+    font-style: italic;
+    font-family: 'Mirza', cursive;
+    font-size: 23px;
+}
+
+#win-lose {
+    font-style: italic;
+    font-family: 'Mirza', cursive;
+    font-size: 23px;
+}
+
+img {
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.funfactStyle {
+    font-family: 'Sofia', cursive;
+    font-size:18px;
+    color: rgb(117, 31, 106);
+}
